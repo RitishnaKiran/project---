@@ -1,6 +1,14 @@
 # project---
 Cybersecurity Project on Keylogger Capturing Keystrokes 
-SOURCE CODE:
+First, the module pynput was installed. This module is used to control and monitor keyboard or mouse/trackpad activities. 
+Keylogger class was created that contained all the methods tgqt were needed to perform keylogger activities.
+ A directory that contained the log files.
+A static method was created that returned key information if a key is pressed. 
+The project provides a Python implementation of a keylogger. Each key event is stored in a list which is later converted to JSON format and saved to a file.
+
+
+
+CODE-
 import tkinter as tk
 from tkinter import *
 from pynput import keyboard
@@ -77,11 +85,5 @@ stop_button.pack(side=RIGHT)
 
 root.geometry("250x100") 
 
-
 RESULTS:
-
-
-
-
-
-
+A keylogger records keystrokes made by the user on their computer. Keyloggers can be used for monitoring employee activities or detecting and preventing unauthorised access.
